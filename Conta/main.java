@@ -29,5 +29,7 @@ public class main {
         }
 
         System.out.println("Saldo total dos 3 clientes: " + total);
+        System.out.println("Maior saldo dos 3 clientes: " + clientes[rico].getSaldo());
+        System.out.println("Cliente com o menor saldo: " + clientes[pobre].getTitulo());
     }
 }
