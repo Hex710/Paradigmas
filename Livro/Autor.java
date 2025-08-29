@@ -29,7 +29,7 @@ public class Autor {
         }
     }
 
-    public String aToString() {
+    public String toString() {
         return "Nome: " + this.nome + " Nacionalidade: " + this.nacionalidade;
     }
 }

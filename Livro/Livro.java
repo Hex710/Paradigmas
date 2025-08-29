@@ -36,11 +36,10 @@ public class Livro {
     }
 
     public void setAutor(String nome, String nacionalidade) {
-        this.autor.setNome(nome);
-        this.autor.setNacionalidade(nacionalidade);
+        this.autor = new Autor(nome, nacionalidade);
     }
 
-    public String lToString() {
+    public String toString() {
         return "Titulo: " + this.titulo + " Ano de Publicação: " + this.ano + " Autor: " + this.autor.getNome();
     }
 }
